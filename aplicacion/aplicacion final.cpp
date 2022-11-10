@@ -54,10 +54,10 @@ int main() {
 			cin >> volt;
 			if (r1>=1 && r1<=9999 && r2>=1 && r2<=9999 && r3>=1 && r3<=9999) {
 				rt = r1+r2+r3;
-				it = volt/rt;
-				p1 = volt*it;
-				p2 = volt*it;
-				p3 = volt*it;
+				it = v1/rt;
+				p1 = v2*it;
+				p2 = v3*it;
+				p3 = v4*it;
 				pt = volt*it;
 				v1 = r1*it;
 				v2 = r2*it;
